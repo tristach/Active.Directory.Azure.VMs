@@ -26,10 +26,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Azure Setup: Create two VMs.  One with Windows server "AD", one Windows 10 "Client-1".  Adjust the firewall on AD and test for connectivity.
+- Install Active Directory:  Create new Active Directory Domain Services on DC, create new forest, promote to DC, create new user, login again as new user.
+- Create New Accounts and Users in AD:  Create three new OUs: ADMINS, EMPLOYEES and CLIENTS.  Add a new employee to the security group.
+- Join Windows 10 to Domain:  Go to Azure and set Windows and set Client-1 to DC's private IP address.  Check DC for confirmation.
+- Setup Remote Desktop for Non-Administrative Users: Log into Client-1 as new employee.  Allow "domain users" access.  
+- Create New User and Log Into Client 1:  Log into DC with new employee.  Use PowerShell to create new employees.  Log into Client-1 with new user.  
 
 <h2>Deployment and Configuration Steps</h2>
 
