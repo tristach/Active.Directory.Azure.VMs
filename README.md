@@ -49,7 +49,7 @@ Adjusted firewall on DC-1.
 <p>
 Can now ping DC-1 as firewall has been adjusted.
 </p>
-<br />https://i.imgur.com/UfQtSbh.png
+<br />
 
 <p>
 <img src="https://i.imgur.com/UfQtSbh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -60,7 +60,7 @@ Create an AD with wizard on DC-1.
 <br />
 
 <p>
-<img src="https://i.imgur.com/MQBLFBC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MLA0gGp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Promote to domain controller.
