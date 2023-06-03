@@ -100,7 +100,7 @@ Joined Client-1 to domain and gave John Snow ability to log into Client-1.
 <br />
 
 <p>
-<img src="https://i.imgur.com/VP5lYzr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/UNS9dvJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Adjusted permissions so all domain users can now access Client-1.
